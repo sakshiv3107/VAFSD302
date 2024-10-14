@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(173, 164, 164);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+}
+.option:hover{
+    text-decoration: none;
+    color:black
+}
+.heading{  
+    font-size: 30px;
+    color: rgb(245, 230, 225);
+    background-color: rgb(186, 57, 57);
+}
+.option{
+    /* padding: 5px; */
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.branch{
+    background-color: rgb(186, 57, 57);
+    height: 550px;
+    font-size: 20px;
+    color: white;
+}
+button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.registration_page{
+    padding: 10px;
+   
+}
