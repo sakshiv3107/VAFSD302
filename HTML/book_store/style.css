@@ -25,11 +25,12 @@ a{
     text-decoration: none;
 }
 
-.branch{
+.branches{
     background-color: rgb(186, 57, 57);
-    height: 550px;
+    height: 470px;
     font-size: 20px;
     color: white;
+    padding-top: 80px;
 }
 button{
     background: none;
@@ -39,6 +40,16 @@ button{
 }
 .registration_page{
     padding: 10px;
+}
+.branch_option{
+    padding-bottom: 80px;
+}
+#cart_header{
+    font-size: 20px;
+
+}
+.form_headings{
+    padding: 20px;
 }
 /* .registration_button:hover{
     text-decoration: none;
