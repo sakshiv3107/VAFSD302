@@ -10,7 +10,7 @@ a{
     text-decoration: none;
     color: rgb(255, 254, 254);
 }
-.option:hover{
+.directing_buttons:hover{
     text-decoration: none;
     color:black
 }
@@ -23,7 +23,6 @@ a{
     /* padding: 5px; */
     font-size: 20px;
     text-decoration: none;
-    color: white;
 }
 
 .branch{
@@ -40,5 +39,8 @@ button{
 }
 .registration_page{
     padding: 10px;
-   
 }
+/* .registration_button:hover{
+    text-decoration: none;
+    color:black
+} */
