@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #logo,section,footer{
+            background-color: rgba(162, 162, 161, 0.938);
+        }
+        main{
+            width: 1200px;
+            height: auto;
+            margin:0 auto ;
+            background-color: rgba(250, 235, 215, 0.918);
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 100px 600px 80px ;
+            gap: 10px;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+        }
+        #left,#right{
+            background-color: #ccc;
+        }
+        #right{
+            display: grid;
+            grid-template-rows: 1fr 2fr;
+            gap: 10px;
+        }
+        #header,#body{
+            background-color: #515151;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="logo">
+            <h2>LOGO</h2>
+        </div>
+        <section>
+            <div id="left">
+                <h2>Side bar Navigation</h2>
+            </div>
+            <div id="right">
+                <div id="header">
+                    <h3>Header</h3>
+                </div>
+                <div id="body">
+                    <h3>Body</h3>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h2>Footer </h2>
+        </footer>
+    </main>
+</body>
+</html>
